@@ -12,6 +12,7 @@ auto-save-list
 tramp
 .\#*
 
+/examples/api_keys.py
 # Org-mode
 .org-id-locations
 *_archive
