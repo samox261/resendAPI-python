@@ -2,13 +2,14 @@ import os
 
 import resend
 
+
 if not os.environ["RESEND_API_KEY"]:
     raise EnvironmentError("RESEND_API_KEY is missing")
 
 params: resend.Emails.SendParams = {
     "from": "onboarding@resend.dev",
-    "to": ["delivered@resend.dev"],
-    "subject": "hi",
+    "to": ["fawazsam2001@gmail.com"],
+    "subject": "hello",
     "html": "<strong>hello, scheduled email!</strong>",
     "scheduled_at": "2024-09-05T11:52:01.858Z",
 }
